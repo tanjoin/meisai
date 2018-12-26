@@ -20,6 +20,7 @@ html, body {
   margin: 0 auto;
   text-align: center;
   font-size: 13px;
+  border: 1px solid #EEE;
 }
 
 .receipt section {
