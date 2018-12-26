@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>レシート</title>
+    <meta charset="utf-8">
+    <meta name="description" content="レシートジェネレーター">
+    <link rel="stylesheet" type="text/css" href="receipt.css">
+    <link rel="stylesheet" media="print" href="print.css">
+  </head>
+  <body class="container">
+    <main class="receipt">
+      <section class="header"></section>
+      <section class="store">
+        <p id="store">PortStore</p>
+      </section>
+      <section class="left">
+        <p id="store-branch">麻布十番店</p>
+        <p id="store-address">東京都港区麻布十番1丁目11-11</p>
+        <p id="store-building">AZABU麻布十番</p>
+        <p id="store-tel"></p>
+      </section>
+      <section class="atfield">
+        <p>領　収　証</p>
+      </section>
+      <section class="left">
+        <p id="day" class="left">2018年12月26日</p><p id="date">&nbsp;(水) 19:49</p>
+      </section>
+      <section class="left atfield">
+        <p class="left">小　計</p><p class="right">￥1,000</p>
+        <hr class="dot">
+        <p class="left">現　計</p><p class="right">￥1,000</p>
+        <p class="left">（内消費税等</p><p class="right">￥74)</p>
+      </section>
+      <section>
+        <p class="left">ﾚｼﾞ 2-2222</p><p class="right">責No.024</p>
+      </section>
+      <section class="footer"></section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

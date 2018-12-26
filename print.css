@@ -1,0 +1,7 @@
+.pages {
+  width: 58mm;
+  page-break-after: always;
+}
+.pages::last-child {
+  page-break-after: auto;
+}
